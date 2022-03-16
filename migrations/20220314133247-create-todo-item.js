@@ -21,8 +21,8 @@ module.exports = {
       },
       todoListId: {
         type: Sequelize.INTEGER,
-        refernces: {
-          model: "userList",
+        references: {
+          model: "todoLists",
           key: "id",
         },
         onUpdate: "CASCADE",
